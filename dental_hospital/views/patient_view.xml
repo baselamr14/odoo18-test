@@ -86,12 +86,11 @@
             <xpath expr="//field[@name='category_id']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
-            <!-- Invisible the smart button Purchase on patient -->
-            <xpath expr="//button[@name='%(purchase.act_res_partner_2_purchase_order)d']" position="attributes">
+            <xpath expr="//button[@icon='fa-shopping-cart']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
-            <!-- Invisible the smart button Vendor Bill on patient -->
-            <xpath expr="//button[@name='%(purchase.act_res_partner_2_supplier_invoices)d']" position="attributes">
+            
+            <xpath expr="//button[@icon='fa-pencil-square-o']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
             <!-- Invisible the smart button On-Time Rate on patient -->
