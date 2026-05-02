@@ -76,7 +76,6 @@
             <xpath expr="//field[@name='phone']" position="attributes">
                 <attribute name="invisible">1</attribute>
             </xpath>
-           
             <xpath expr="//field[@name='website']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
@@ -86,33 +85,12 @@
             <xpath expr="//field[@name='category_id']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
-            <!-- Hide Purchase and Vendor Bill smart buttons -->
-          
-            <!-- Invisible the smart button On-Time Rate on patient -->
-            <xpath expr="//button[@icon='fa-truck']" position="attributes">
-                <attribute name="invisible">company_type == 'person'</attribute>
-            </xpath>
-            <xpath expr="//button[@name='action_view_stock_lots']" position="attributes">
-                <attribute name="invisible">company_type == 'person'</attribute>
-            </xpath>
-            <!--            <xpath expr="//button[@name='schedule_meeting']" position="attributes">-->
-            <!--                <attribute name="invisible">company_type == 'person'</attribute>-->
-            <!--            </xpath>-->
-            <xpath expr="//button[@name='action_see_documents']" position="attributes">
-                <attribute name="invisible">company_type == 'person'</attribute>
-            </xpath>
-            <!--                        <xpath expr="//button[@name='open_partner_ledger']" position="attributes">-->
-            <!--                            <attribute name="invisible">company_type == 'person'</attribute>-->
-            <!--                        </xpath>-->
             <xpath expr="//button[@name='action_view_sale_order']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
-
-            <!-- Invisible the page Sales Purchases on patient -->
             <xpath expr="//page[@name='sales_purchases']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
-            <!-- Invisible the page Accounting on patient -->
             <xpath expr="//page[@name='accounting']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
