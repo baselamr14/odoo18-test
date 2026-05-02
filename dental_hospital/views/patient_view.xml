@@ -87,9 +87,7 @@
                 <attribute name="invisible">company_type == 'person'</attribute>
             </xpath>
             <!-- Hide Purchase and Vendor Bill smart buttons -->
-            <xpath expr="//button[@name='action_view_purchase_order']" position="attributes">
-                <attribute name="invisible">company_type == 'person'</attribute>
-            </xpath>
+          
             <!-- Invisible the smart button On-Time Rate on patient -->
             <xpath expr="//button[@icon='fa-truck']" position="attributes">
                 <attribute name="invisible">company_type == 'person'</attribute>
