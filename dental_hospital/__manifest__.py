@@ -32,7 +32,6 @@
         'views/medicine_frequency_views.xml',
         'views/dental_medicine_views.xml',
         'views/medical_questions_views.xml',
-        'views/dental_doctor_views.xml',
         'views/dental_specialist_views.xml',
         'views/dental_time_shift_views.xml',
         'report/dental_prescription_report.xml',
