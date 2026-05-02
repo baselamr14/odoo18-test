@@ -13,7 +13,7 @@
     "license": "AGPL-3",
     'category': 'Hospital',
     'version': '18.0.1.0.0',
-    'depends': ['base', 'hr', 'account', 'sale', 'product', 'web','stock'],
+    'depends': ['base', 'hr', 'account', 'sale', 'product', 'web','stock','purchase'],
     'data': [
         'data/patient_id_sequence.xml',
         'data/dental_specialist_data.xml',
