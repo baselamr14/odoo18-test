@@ -16,8 +16,8 @@ class DentalPatients(models.Model):
                                                    ('company', 'Medicine Distributor')],
                                     help="Patient type")
 
-   dob = fields.Date(string="Doctor Date of Birth",
-                  help="DOB of the doctor")
+    dob = fields.Date(string="Date of Birth",
+                      help="DOB of the patient")
     patient_age = fields.Integer(compute='_compute_patient_age',
                                  store=True,
                                  string="Age",
